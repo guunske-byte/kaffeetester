@@ -239,3 +239,61 @@ tr:last-child td { border-bottom: none; }
   .hero-card { padding: 36px 22px; }
   .nav { justify-content: center; }
 }
+
+/* ---------- Produktkarten ---------- */
+.produkte { display: grid; gap: 22px; margin: 24px 0; }
+.produkt {
+  position: relative;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 24px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 24px;
+}
+.produkt-badge {
+  position: absolute;
+  top: -12px;
+  left: 20px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 6px 14px;
+  border-radius: 999px;
+}
+.produkt-media {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--surface-alt);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  min-height: 160px;
+  overflow: hidden;
+}
+.produkt-media img { width: 100%; height: auto; object-fit: contain; }
+.produkt-body h3 { margin: 4px 0 6px; font-size: 1.3rem; }
+.produkt .marke { color: var(--muted); font-size: 0.9rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.03em; }
+.produkt .bewertung { color: #b8860b; font-weight: 700; margin: 6px 0; }
+.produkt .bewertung span { color: var(--muted); font-weight: 400; margin-left: 6px; }
+.produkt .kurz { color: #26302a; margin: 8px 0 14px; }
+.produkt .specs { list-style: none; padding: 0; margin: 0 0 14px; display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px 18px; }
+.produkt .specs li { font-size: 0.92rem; color: var(--muted); }
+.produkt .specs b { color: var(--text); font-weight: 700; }
+.pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; margin: 14px 0; }
+.pros-cons ul { list-style: none; padding: 0; margin: 0; font-size: 0.92rem; }
+.pros-cons li { margin-bottom: 5px; }
+.pros li::before { content: "✓ "; color: var(--accent); font-weight: 700; }
+.cons li::before { content: "✕ "; color: #b04a3a; font-weight: 700; }
+.produkt .preis-zeile { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin: 6px 0 14px; }
+.produkt .preis { font-size: 1.5rem; font-weight: 800; color: var(--accent); }
+.produkt .preis small { font-size: 0.85rem; color: var(--muted); font-weight: 400; }
+.produkt .stand { font-size: 0.8rem; color: var(--muted); }
+.affiliate-hinweis { font-size: 0.8rem; color: var(--muted); margin-top: 8px; }
+@media (max-width: 640px) {
+  .produkt { grid-template-columns: 1fr; }
+  .produkt .specs, .pros-cons { grid-template-columns: 1fr; }
+}
