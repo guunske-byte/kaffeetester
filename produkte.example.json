@@ -1,0 +1,27 @@
+{
+  "_hinweis": "Datenmodell für Produktkarten. Pro Gerät ein Objekt. Harte Fakten/Preise aus echter Quelle (Affiliate-Feed oder manuell geprüft) – niemals erfinden. Texte (kurz, pro, contra) schreibt Kaffee Tester.",
+  "produkte": [
+    {
+      "id": "beispiel-einsteiger",
+      "marke": "[Marke]",
+      "modell": "[Modellname]",
+      "badge": "Preis-Tipp",
+      "bild": "/assets/produkte/[dateiname].jpg",
+      "bild_alt": "[Marke Modell Kaffeevollautomat]",
+      "bewertung": { "wert": null, "anzahl": null, "quelle": "[z. B. Händler-Bewertungen]" },
+      "kurz": "",
+      "specs": {
+        "mahlwerk": "[Stahl/Keramik]",
+        "milchsystem": "[Nein/Karaffe/Schlauch/LatteGo]",
+        "bruehgruppe": "[herausnehmbar/fest]",
+        "display": "[Tasten/Touch]",
+        "programme": null
+      },
+      "pro": ["", ""],
+      "contra": ["", ""],
+      "preis": { "ab": null, "waehrung": "EUR", "stand": "TT.MM.JJJJ", "hinweis": "Preis kann abweichen" },
+      "affiliate_url": "[Affiliate-Link]",
+      "affiliate_netzwerk": "[Amazon PA-API / Awin / ...]"
+    }
+  ]
+}
