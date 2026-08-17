@@ -4,230 +4,56 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Kaffee Tester – Tests, Vergleiche & Ratgeber für Kaffeemaschinen</title>
-  <meta
-    name="description"
-    content="Kaffee Tester ist ein neues Portal für Tests, Vergleiche und Ratgeber rund um Kaffeemaschinen. Die Website startet in Kürze."
-  />
-  <meta
-    name="keywords"
-    content="Kaffeemaschine Test, beste Kaffeemaschine, Vollautomat, Siebträger, Kapselmaschine, Kaffee Tester"
-  />
-  <meta name="robots" content="index, follow" />
+  <title>Kaffee Tester – Kaffeevollautomaten verstehen & richtig kaufen</title>
+  <meta name="description" content="Unabhängige Ratgeber und Kaufberatung rund um Kaffeevollautomaten: Worauf beim Kauf achten, Modelle bis 500 Euro, Vollautomat oder Siebträger und richtig reinigen & entkalken." />
+  <meta name="robots" content="noindex, follow" />
   <meta name="author" content="Kaffee Tester" />
+  <link rel="canonical" href="https://kaffeetester.de/" />
+  <link rel="alternate" hreflang="de" href="https://kaffeetester.de/" />
+  <link rel="alternate" hreflang="x-default" href="https://kaffeetester.de/" />
+  <meta name="theme-color" content="#1f3d2b" />
+  <link rel="icon" href="/assets/favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="/assets/favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
 
-  <meta property="og:title" content="Kaffee Tester – Bald online" />
-  <meta
-    property="og:description"
-    content="Tests, Vergleiche und Ratgeber rund um Kaffeemaschinen. Die Website startet in Kürze."
-  />
+  <meta property="og:title" content="Kaffee Tester – Kaffeevollautomaten verstehen & richtig kaufen" />
+  <meta property="og:description" content="Unabhängige Ratgeber und Kaufberatung rund um Kaffeevollautomaten – ehrlich, verständlich und ohne Marketing-Versprechen." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://kaffeetester.de/" />
   <meta property="og:site_name" content="Kaffee Tester" />
-
+  <meta property="og:locale" content="de_DE" />
+  <meta property="og:image" content="https://kaffeetester.de/assets/og-default.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:image" content="https://kaffeetester.de/assets/og-default.png" />
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Kaffee Tester – Bald online" />
-  <meta
-    name="twitter:description"
-    content="Tests, Vergleiche und Ratgeber rund um Kaffeemaschinen. Die Website startet in Kürze."
-  />
 
-  <style>
-    :root {
-      --bg: #f7f6f2;
-      --surface: #ffffff;
-      --text: #17201b;
-      --muted: #5f6b63;
-      --accent: #1f3d2b;
-      --accent-hover: #2b533b;
-      --border: #dfe5df;
-      --shadow: 0 10px 30px rgba(0, 0, 0, 0.06);
-      --radius: 18px;
-      --max-width: 1080px;
-    }
+  <link rel="stylesheet" href="/assets/style.css" />
 
-    * {
-      box-sizing: border-box;
-    }
-
-    html {
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      line-height: 1.6;
-    }
-
-    .container {
-      width: min(100% - 32px, var(--max-width));
-      margin: 0 auto;
-    }
-
-    header {
-      padding: 24px 0;
-    }
-
-    .brand {
-      font-size: 1.1rem;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-      color: var(--accent);
-      text-decoration: none;
-    }
-
-    .hero {
-      padding: 56px 0 32px;
-    }
-
-    .hero-card {
-      background: linear-gradient(135deg, #ffffff 0%, #f1f5f1 100%);
-      border: 1px solid var(--border);
-      border-radius: 28px;
-      box-shadow: var(--shadow);
-      padding: 56px 32px;
-    }
-
-    .eyebrow {
-      display: inline-block;
-      margin-bottom: 18px;
-      padding: 8px 14px;
-      border-radius: 999px;
-      background: rgba(31, 61, 43, 0.08);
-      color: var(--accent);
-      font-size: 0.9rem;
-      font-weight: 700;
-    }
-
-    h1 {
-      margin: 0 0 18px;
-      font-size: clamp(2.2rem, 5vw, 4.2rem);
-      line-height: 1.1;
-      letter-spacing: -0.03em;
-    }
-
-    .hero p {
-      margin: 0;
-      max-width: 760px;
-      font-size: 1.08rem;
-      color: var(--muted);
-    }
-
-    .hero-actions {
-      margin-top: 28px;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 14px;
-    }
-
-    .btn {
-      display: inline-block;
-      padding: 14px 20px;
-      border-radius: 999px;
-      text-decoration: none;
-      font-weight: 700;
-      transition: 0.2s ease;
-    }
-
-    .btn-primary {
-      background: var(--accent);
-      color: #ffffff;
-    }
-
-    .btn-primary:hover {
-      background: var(--accent-hover);
-    }
-
-    .btn-secondary {
-      border: 1px solid var(--border);
-      color: var(--text);
-      background: #ffffff;
-    }
-
-    .btn-secondary:hover {
-      border-color: #c9d3ca;
-      background: #f8faf8;
-    }
-
-    .section {
-      padding: 24px 0 56px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: 1.1fr 0.9fr;
-      gap: 24px;
-    }
-
-    .card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      box-shadow: var(--shadow);
-      padding: 28px;
-    }
-
-    h2 {
-      margin-top: 0;
-      margin-bottom: 14px;
-      font-size: 1.5rem;
-      line-height: 1.2;
-    }
-
-    .muted {
-      color: var(--muted);
-    }
-
-    .status-box {
-      display: flex;
-      flex-direction: column;
-      gap: 14px;
-    }
-
-    .status-pill {
-      display: inline-block;
-      width: fit-content;
-      padding: 8px 14px;
-      border-radius: 999px;
-      background: rgba(31, 61, 43, 0.1);
-      color: var(--accent);
-      font-size: 0.92rem;
-      font-weight: 700;
-    }
-
-    footer {
-      padding: 12px 0 42px;
-    }
-
-    .footer-inner {
-      border-top: 1px solid var(--border);
-      padding-top: 20px;
-      color: var(--muted);
-      font-size: 0.95rem;
-    }
-
-    @media (max-width: 820px) {
-      .grid {
-        grid-template-columns: 1fr;
-      }
-
-      .hero-card {
-        padding: 40px 24px;
-      }
-
-      h1 {
-        font-size: 2.3rem;
-      }
-    }
-  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Kaffee Tester",
+    "url": "https://kaffeetester.de/",
+    "description": "Unabhängige Ratgeber und Kaufberatung rund um Kaffeevollautomaten und Kaffeemaschinen.",
+    "inLanguage": "de-DE"
+  }
+  </script>
 </head>
 <body>
-  <header>
+  <header class="site-header">
     <div class="container">
-      <a class="brand" href="/">Kaffee Tester</a>
+      <nav class="nav" aria-label="Hauptnavigation">
+        <a class="brand" href="/">Kaffee&nbsp;Tester <span>·&nbsp;Ratgeber</span></a>
+        <ul class="nav-links">
+          <li><a href="/kaffeevollautomat/">Kaffeevollautomat</a></li>
+          <li><a href="/kaffeevollautomat/kaufberatung/">Kaufberatung</a></li>
+          <li><a href="/kaffeevollautomat/bis-500-euro/">Bis 500&nbsp;€</a></li>
+          <li><a href="/kaffeevollautomat/reinigen-entkalken/">Reinigen</a></li>
+        </ul>
+      </nav>
     </div>
   </header>
 
@@ -235,45 +61,75 @@
     <section class="hero">
       <div class="container">
         <div class="hero-card">
-          <span class="eyebrow">Bald online</span>
+          <span class="eyebrow">Unabhängig · Werbefrei im Text · Verständlich</span>
           <h1>Kaffeemaschinen verstehen. Besser wählen. Besser genießen.</h1>
           <p>
-            Kaffee Tester ist ein neues Portal für Kaffeemaschinen, Vergleiche und
-            Ratgeber. Hier findest du bald fundierte Inhalte zu Vollautomaten,
-            Siebträgern, Kapselmaschinen und allem, was zu gutem Kaffee zu Hause gehört.
+            Kaffee Tester ist ein unabhängiges Portal rund um Kaffeevollautomaten. Wir erklären
+            verständlich, worauf es beim Kauf wirklich ankommt – ohne leere Marketing-Versprechen.
+            Den Anfang macht der wichtigste Bereich: der Kaffeevollautomat für zu Hause.
           </p>
-
           <div class="hero-actions">
-            <a class="btn btn-primary" href="#about">Mehr erfahren</a>
-            <a class="btn btn-secondary" href="#launch">Website-Status</a>
+            <a class="btn btn-primary" href="/kaffeevollautomat/">Zum großen Kaffeevollautomat-Ratgeber</a>
+            <a class="btn btn-secondary" href="/kaffeevollautomat/kaufberatung/">Kaufberatung starten</a>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section" id="about">
+    <section class="section">
       <div class="container">
-        <div class="grid">
+        <h2>Womit wir starten: Kaffeevollautomaten</h2>
+        <p class="section-lead">
+          Vier Ratgeber, die die häufigsten Fragen beim Kauf und im Alltag beantworten – aufeinander
+          abgestimmt und laufend erweitert.
+        </p>
+        <div class="grid grid-2" style="margin-top:22px">
+          <a class="card card-link" href="/kaffeevollautomat/">
+            <span class="pill">Übersicht</span>
+            <h3>Kaffeevollautomat: der große Ratgeber</h3>
+            <p class="muted">Für wen sich ein Vollautomat lohnt, wie er funktioniert und welche Ausstattung wirklich zählt – der Einstieg ins Thema.</p>
+          </a>
+          <a class="card card-link" href="/kaffeevollautomat/kaufberatung/">
+            <span class="pill">Kaufberatung</span>
+            <h3>Worauf beim Kauf achten – 7 Kriterien</h3>
+            <p class="muted">Mahlwerk, Milchsystem, Brühgruppe & Co. – die entscheidenden Punkte, mit denen du gute von schlechten Geräten unterscheidest.</p>
+          </a>
+          <a class="card card-link" href="/kaffeevollautomat/bis-500-euro/">
+            <span class="pill">Budget</span>
+            <h3>Kaffeevollautomat bis 500&nbsp;Euro</h3>
+            <p class="muted">Was du in dieser beliebten Preisklasse erwarten darfst, worauf du verzichtest – und wann sich mehr Budget lohnt.</p>
+          </a>
+          <a class="card card-link" href="/kaffeevollautomat/vollautomat-oder-siebtraeger/">
+            <span class="pill">Vergleich</span>
+            <h3>Vollautomat oder Siebträger?</h3>
+            <p class="muted">Zwei Philosophien, ein Ziel: guter Kaffee. Welcher Maschinentyp zu deinem Alltag und Anspruch passt.</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="grid grid-2">
           <div class="card">
             <h2>Über Kaffee Tester</h2>
             <p class="muted">
-              Kaffee Tester entsteht als unabhängige Plattform für Menschen, die
-              die passende Kaffeemaschine für ihr Zuhause finden möchten.
+              Kaffee Tester entsteht als unabhängige Plattform für Menschen, die die passende
+              Kaffeemaschine für ihr Zuhause finden möchten. Unser Anspruch: erklären statt anpreisen.
             </p>
             <p class="muted">
-              Geplant sind übersichtliche Vergleiche, ehrliche Einschätzungen und
-              hilfreiche Ratgeber rund um Kauf, Nutzung und Pflege moderner
-              Kaffeemaschinen.
+              Statt endloser Ranglisten setzen wir auf verständliche Kaufkriterien, ehrliche
+              Einordnung und praktische Pflege-Tipps, die deine Maschine länger leben lassen.
             </p>
           </div>
-
-          <div class="card status-box" id="launch">
-            <span class="status-pill">Website im Aufbau</span>
-            <h2>Der Start erfolgt in Kürze</h2>
+          <div class="card">
+            <h2>Als Nächstes geplant</h2>
             <p class="muted">
-              Die Inhalte und ersten Vergleichsseiten werden aktuell vorbereitet.
-              Schon bald findest du hier die ersten Tests, Empfehlungen und
-              Kaufberatungen.
+              Der Kaffeevollautomat-Bereich wächst zuerst. Danach folgen eigene Ratgeber zu
+              Siebträgermaschinen, Kapsel- und Padmaschinen sowie zu Kaffeebohnen und Zubereitung.
+            </p>
+            <p class="muted">
+              Du vermisst ein Thema? Sag uns, worüber du am liebsten lesen würdest.
             </p>
           </div>
         </div>
@@ -281,10 +137,18 @@
     </section>
   </main>
 
-  <footer>
+  <footer class="site-footer">
     <div class="container">
       <div class="footer-inner">
-        © 2026 Kaffee Tester. Alle Rechte vorbehalten.
+        <div>© 2026 Kaffee Tester · Unabhängige Ratgeber rund um Kaffeemaschinen.</div>
+        <nav aria-label="Fußzeile">
+          <a href="/kaffeevollautomat/">Kaffeevollautomat</a>
+          <a href="/kaffeevollautomat/kaufberatung/">Kaufberatung</a>
+          <a href="/kaffeevollautomat/reinigen-entkalken/">Reinigen &amp; Entkalken</a>
+          <a href="/ueber-uns/">Über uns</a>
+          <a href="/impressum/">Impressum</a>
+          <a href="/datenschutz/">Datenschutz</a>
+        </nav>
       </div>
     </div>
   </footer>

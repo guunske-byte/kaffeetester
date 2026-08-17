@@ -1,0 +1,15 @@
+{
+  "name": "Kaffee Tester",
+  "short_name": "Kaffee Tester",
+  "description": "Unabhängige Ratgeber und Kaufberatung rund um Kaffeevollautomaten.",
+  "lang": "de-DE",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f6f2",
+  "theme_color": "#1f3d2b",
+  "icons": [
+    { "src": "/assets/favicon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" },
+    { "src": "/assets/icon-192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "/assets/icon-512.png", "type": "image/png", "sizes": "512x512" }
+  ]
+}
