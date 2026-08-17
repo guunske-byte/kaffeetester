@@ -102,27 +102,37 @@ Regeln:
 - [x] Mobile-first, responsives Layout, sticky Navigation
 - [x] Interne Verlinkung Pillar ⇄ Cluster
 - [x] Gemeinsames, schlankes CSS (eine Datei, schnelle Ladezeit)
+- [x] `hreflang`-Auszeichnung (`de` + `x-default`, selbstreferenzierend) auf jeder Seite
+- [x] Favicon-Set (SVG + PNG), Apple-Touch-Icon, `site.webmanifest`, `theme-color`
+- [x] OG-Vorschaubild (`og:image`, 1200×630, gebrandet) + `og:image:width/height` + `twitter:image`
+- [x] Alle Seiten ausdrücklich indexierbar (`robots: index, follow`, kein `noindex`)
+- [x] „Über uns"-Seite für E-E-A-T (Grundsätze, Methodik, Transparenz)
+- [x] Impressum & Datenschutzerklärung als **ausfüllfertige Vorlagen** (im Footer jeder Seite verlinkt)
 
-**Als Nächstes (empfohlen):**
+**Als Nächstes (Aufgaben des Betreibers vor dem Launch):**
+- [ ] **Impressum & Datenschutz mit echten Daten füllen** (`[…]`-Platzhalter ersetzen) – rechtlich Pflicht in DE
+- [ ] „Über uns" + Autorenangaben mit echtem Namen/Foto vervollständigen (E-E-A-T)
 - [ ] Domain live schalten, HTTPS erzwingen, `www`/non-`www` auf eine Variante umleiten
-- [ ] Google Search Console + Bing Webmaster Tools einrichten, Sitemap einreichen
-- [ ] Favicon + OG-Vorschaubild (`og:image`, 1200×630) ergänzen
-- [ ] Impressum & Datenschutzerklärung (Pflicht in DE) + Cookie-Hinweis
+- [ ] Google Search Console + Bing Webmaster Tools einrichten, `sitemap.xml` einreichen
+- [ ] Cookie-Hinweis, falls einwilligungspflichtige Cookies/Analyse-Tools eingesetzt werden
 - [ ] Bilder mit `alt`-Texten und `loading="lazy"` einbauen (aktuell textbasiert)
-- [ ] Autoren-/„Über uns"-Seite für E-E-A-T (wer steckt dahinter, Methodik)
 - [ ] Ladezeit/Core Web Vitals prüfen (aktuell sehr leicht – guter Startpunkt)
 
 ---
 
 ## 6. Redaktioneller Fahrplan (nächste Phasen)
 
-**Phase 2 – Kaffeevollautomat-Cluster vertiefen (Long-Tail ausbauen):**
+**Phase 2 – Kaffeevollautomat-Cluster vertiefen (jetzt live):**
+- [x] Kaffeevollautomat bis 1.000 Euro (nächste Preisklasse) → `/kaffeevollautomat/bis-1000-euro/`
+- [x] Milchsystem-Vergleich: Karaffe vs. Schlauch vs. LatteGo → `/kaffeevollautomat/milchsystem/`
+- [x] Häufige Probleme & Lösungen (mahlt nicht, Brühgruppe klemmt, …) → `/kaffeevollautomat/probleme-loesungen/`
+- [x] Kaffeebohnen für den Vollautomaten → `/kaffeevollautomat/bohnen/`
+
+**Phase 2b – weitere Long-Tail-Ideen (offen):**
 - Kaffeevollautomat mit App / Smart-Funktionen – lohnt sich das?
-- Bester Milchschaum: Karaffe vs. Schlauchsystem vs. LatteGo
 - Kaffeevollautomat für 1–2 Personen / kleine Küche
-- Kaffeevollautomat bis 1.000 Euro (nächste Preisklasse)
-- Häufige Fehler & Probleme (mahlt nicht, Brühgruppe klemmt, …) – starke Long-Tail-Traffic-Quelle
-- Bohnen für den Vollautomaten – welche eignen sich?
+- Mahlgrad richtig einstellen (eigener Ratgeber)
+- Kaffeevollautomat entkalken: Hausmittel vs. Entkalker im Detail
 
 **Phase 3 – neue Cluster (jeweils eigener Pillar + Support-Seiten):**
 - Siebträgermaschine (Pillar + Kaufberatung, Zubehör, Einsteiger-Guide)
