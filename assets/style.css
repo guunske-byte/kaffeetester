@@ -386,3 +386,9 @@ th, td { border-bottom: 2px solid #000; }
 .hero-split { display: grid; grid-template-columns: 1.1fr 1fr; gap: 36px; align-items: center; }
 .hero-split .bild { margin: 0; aspect-ratio: 4 / 3; }
 @media (max-width: 820px) { .hero-split { grid-template-columns: 1fr; } }
+
+/* Karten ohne Bild (bis Fotos oder Partner-Feed da sind) */
+.produkt.ohne-bild { grid-template-columns: 1fr; }
+.produkt-body h3 a { color: #000; text-decoration: none; }
+.produkt-body h3 a:hover { background: var(--accent-soft); }
+.article th[scope="row"] { background: var(--surface-alt); color: #000; font-family: var(--font-body); text-transform: none; font-size: 0.95rem; letter-spacing: 0; width: 38%; }
