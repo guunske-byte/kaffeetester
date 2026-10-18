@@ -6,6 +6,7 @@ document.querySelectorAll('.video[data-src]').forEach(function (el) {
     var v = document.createElement('video');
     v.src = el.dataset.src; v.controls = true; v.autoplay = true; v.playsInline = true;
     v.preload = 'auto'; v.title = el.dataset.title;
+    v.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;object-fit:contain;background:#000';
     if (el.dataset.width) { v.width = +el.dataset.width; v.height = +el.dataset.height; }
     if (el.dataset.vtt) {
       var t = document.createElement('track');

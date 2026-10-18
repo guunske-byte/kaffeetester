@@ -20,3 +20,9 @@ Jedes `<img>` braucht `alt`, `width`, `height`. Nur Fotos mit freier kommerziell
 
 ## Git
 Nicht ohne Freigabe der Nutzerin committen oder pushen. Mehrere Themen = mehrere Commits.
+
+## Rechtliches (Stand Oktober 2026: privates, nicht kommerzielles Projekt)
+Impressum und Datenschutz sind bewusst minimal (nur E-Mail, keine Werbung, keine Partnerlinks). **Vor der ersten Affiliate-Verlinkung, Werbung oder Awin-Bewerbung zwingend ersetzen:** vollständiges Impressum nach § 5 DDG (echter Name, ladungsfähige Anschrift, E-Mail), Datenschutz um Partnerprogramme ergänzen, Hinweis "Anzeige/Affiliate-Link" an den Links. Google Fonts durch lokale Schriften ersetzen und den Abschnitt "Schriftarten" in der Datenschutzerklärung anpassen.
+
+## Cache
+CSS und JS werden mit `max-age=0, must-revalidate` ausgeliefert (vercel.json) und mit `?v=` eingebunden. Bei größeren CSS/JS-Änderungen `?v=` in allen HTML-Dateien hochzählen, sonst sehen Besucher mit altem Cache kaputte Layouts.

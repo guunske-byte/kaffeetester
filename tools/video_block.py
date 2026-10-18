@@ -37,7 +37,7 @@ block = f'''<!-- video:{slug} -->
       </div>
       <p class="video-hinweis">{e(S['hinweis'])} Das Video liegt auf unserem eigenen Server, es werden keine Daten an Dritte übertragen.</p>
       <details class="transkript"><summary>Transkript und Untertitel</summary><p>{e(transcript)}</p><p><a href="{vtt}">Untertitel-Datei (WebVTT)</a></p></details>
-      <script src="/assets/video.js" defer></script>
+      <script src="/assets/video.js?v=20261018" defer></script>
       <!-- /video:{slug} -->'''
 ld = '<script type="application/ld+json" data-video="%s">%s</script>' % (slug, json.dumps({
     "@context": "https://schema.org", "@type": "VideoObject", "name": S['title'], "description": S['description'],
