@@ -1,0 +1,25 @@
+# Kaffee Tester
+
+> Unabhängige deutschsprachige Ratgeber und Datenblätter rund um Kaffeevollautomaten. Wir testen nicht selbst im Labor: Einordnungen beruhen auf Datenblättern und Herstellerangaben, Quellen sind jeweils verlinkt. Preise nennen wir nur mit Datum.
+
+## Ratgeber
+- [Kaffeevollautomat: Überblick](https://kaffeetester.de/kaffeevollautomat/): Einstieg in alle Ratgeber
+- [Kaufberatung: die 7 wichtigsten Kriterien](https://kaffeetester.de/kaffeevollautomat/kaufberatung/): Mahlwerk (Stahl vs. Keramik), Brühgruppe, Milchsystem u. a.
+- [Kaffeevollautomat bis 500 Euro](https://kaffeetester.de/kaffeevollautomat/bis-500-euro/)
+- [Kaffeevollautomat bis 1000 Euro](https://kaffeetester.de/kaffeevollautomat/bis-1000-euro/)
+- [Vollautomat oder Siebträger?](https://kaffeetester.de/kaffeevollautomat/vollautomat-oder-siebtraeger/)
+- [Milchsystem: Karaffe, Schlauch oder LatteGo?](https://kaffeetester.de/kaffeevollautomat/milchsystem/)
+- [Reinigen und Entkalken](https://kaffeetester.de/kaffeevollautomat/reinigen-entkalken/)
+- [Probleme und Lösungen](https://kaffeetester.de/kaffeevollautomat/probleme-loesungen/)
+- [Kaffeebohnen für den Vollautomaten](https://kaffeetester.de/kaffeevollautomat/bohnen/)
+
+## Modelle (Datenblatt, Vor- und Nachteile, Quellen)
+- [Übersicht](https://kaffeetester.de/produkte/)
+- [Datenvergleich aller Modelle](https://kaffeetester.de/daten/)
+- [De'Longhi Magnifica Start ECAM 220.21.B](https://kaffeetester.de/produkte/delonghi-magnifica-start-ecam220-21/)
+- [Philips 3200 Serie LatteGo EP3243/50](https://kaffeetester.de/produkte/philips-3200-lattego-ep3243-50/)
+- [Melitta Caffeo Solo E950-101](https://kaffeetester.de/produkte/melitta-caffeo-solo-e950-101/)
+
+## Hinweise
+- Mit * markierte Links sind Partnerlinks (derzeit keine gesetzt).
+- Das Erklärvideo zum Mahlwerk ist eine schematische Animation, kein Test.
