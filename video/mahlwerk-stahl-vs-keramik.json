@@ -1,0 +1,41 @@
+{
+ "slug": "mahlwerk-stahl-vs-keramik",
+ "page": "/kaffeevollautomat/kaufberatung/",
+ "title": "Mahlwerk im Kaffeevollautomaten: Stahl vs. Keramik",
+ "heading": "Erklärvideo: Mahlwerk Stahl vs. Keramik",
+ "description": "Schematische Animation: So mahlt ein Scheibenmahlwerk die Bohnen und worin sich Stahl- und Keramikmahlscheiben unterscheiden.",
+ "poster_alt": "Schema eines Scheibenmahlwerks: Bohnen fallen zwischen zwei Mahlscheiben, darunter sammelt sich Kaffeemehl.",
+ "width": 1920,
+ "height": 1080,
+ "upload_date": "2026-10-18",
+ "duration_seconds": 40,
+ "pad": 0.7,
+ "fps": 30,
+ "hinweis": "Schematische Animation von uns, kein Gerätefoto und kein Test. Die Stimme ist synthetisch.",
+ "scenes": [
+  {
+   "text": "Wie funktioniert das Mahlwerk im Kaffeevollautomaten? Stahl oder Keramik?",
+   "audio_seconds": 4.296
+  },
+  {
+   "text": "Das Mahlwerk mahlt die Bohnen frisch, vor jedem Bezug. Meist sind es zwei Mahlscheiben, aus Stahl oder aus Keramik.",
+   "audio_seconds": 6.42
+  },
+  {
+   "text": "Der Mahlgrad bestimmt die Extraktion. Zu grob schmeckt der Kaffee dünn und wässrig, zu fein schmeckt er bitter.",
+   "audio_seconds": 5.584
+  },
+  {
+   "text": "Stahl ist robust, auch gegenüber kleinen Steinchen, und mahlt tendenziell etwas schneller. Dabei kann er minimal wärmer werden.",
+   "audio_seconds": 6.734
+  },
+  {
+   "text": "Keramik ist sehr hart und besonders verschleißarm. Sie mahlt etwas langsamer, ist oft leiser und bleibt tendenziell kühler.",
+   "audio_seconds": 6.92
+  },
+  {
+   "text": "Für die Tasse sind beide fast gleichwertig. Achte lieber auf ein gleichmäßiges Mahlbild und viele Mahlgrade.",
+   "audio_seconds": 5.782
+  }
+ ]
+}
