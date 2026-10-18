@@ -157,6 +157,14 @@
         <strong>Tipp:</strong> Stell den Mahlgrad nur bei laufendem Mahlwerk um und immer nur eine Stufe
         pro Bezug. So schonst du die Mahlscheiben und findest deine Lieblingseinstellung Schritt für Schritt.
       </div>
+      <h3>Erklärvideo: Mahlwerk Stahl vs. Keramik (40 Sek.)</h3>
+      <div class="video" data-src="/assets/video/mahlwerk-stahl-vs-keramik.mp4" data-title="Mahlwerk im Kaffeevollautomaten: Stahl vs. Keramik">
+        <button type="button" class="video-start" style="background:url('/assets/video/mahlwerk-stahl-vs-keramik.jpg') center/cover no-repeat;color:#000;font-weight:700;text-shadow:0 0 6px #fff,0 0 6px #fff" aria-label="Erklärvideo abspielen">▶ Video abspielen</button>
+      </div>
+      <p class="video-hinweis">Schematische Animation von uns, kein Gerätefoto und kein Test. Die Stimme ist synthetisch. Inhalt wie oben in der Tabelle. Das Video liegt auf unserem eigenen Server, es werden keine Daten an Dritte übertragen.</p>
+      <script>
+      document.querySelectorAll('.video[data-src]').forEach(function(el){el.querySelector('.video-start').addEventListener('click',function(){var v=document.createElement('video');v.src=el.dataset.src;v.controls=true;v.autoplay=true;v.playsInline=true;v.title=el.dataset.title;v.style.cssText='position:absolute;inset:0;width:100%;height:100%';el.querySelector('.video-start').replaceWith(v);});});
+      </script>
 
       <h2 id="bruehgruppe">2. Brühgruppe: herausnehmbar oder fest verbaut?</h2>
       <p>
